@@ -39,3 +39,11 @@ Note: The Pipeline project can also be configured to scan and poll a GitHub repo
 
 This should start up a new job that immediately transitions to a paused state
 
+[new job](/images/new-job.png)
+
+The Pipeline pauses and waits for interactive input, click anywhere on the paused row to navigate to the Configure stage of the Pipeline
+
+[job status](/images/job.png)
+
+To provide the configuration, click Resolve Input and enter the requested input. Enter the details for the Docker registry and repository of your choice for staging the images. Create the credentials to the Docker registry and Anchore Engine. Click Proceed
+
